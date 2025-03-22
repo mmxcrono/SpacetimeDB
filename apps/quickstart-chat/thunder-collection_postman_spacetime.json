@@ -1,0 +1,132 @@
+{
+    "info": {
+        "_postman_id": "a2e3ff30-e736-4e2a-8504-c562a0e1dbb9",
+        "name": "spacetime",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": ""
+    },
+    "item": [
+        {
+            "name": "ping",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:3000/v1/ping",
+                    "path": [
+                        "v1",
+                        "ping"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000"
+                }
+            }
+        },
+        {
+            "name": "identity",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "http://localhost:3000/v1/identity",
+                    "path": [
+                        "v1",
+                        "identity"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000"
+                }
+            }
+        },
+        {
+            "name": "identity public-key",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:3000/v1/identity/public-key",
+                    "path": [
+                        "v1",
+                        "identity",
+                        "public-key"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000"
+                }
+            }
+        },
+        {
+            "name": "set email",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "http://localhost:3000/v1/identity/c2009486fe6ee3d56732fd85eca35600e42145f533c2e4da7460badbd2dabd01/set-email?email=hnguyen.email@gmail.com",
+                    "query": [
+                        {
+                            "key": "email",
+                            "value": "hnguyen.email@gmail.com"
+                        }
+                    ],
+                    "variable": [],
+                    "path": [
+                        "v1",
+                        "identity",
+                        "c2009486fe6ee3d56732fd85eca35600e42145f533c2e4da7460badbd2dabd01",
+                        "set-email"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000"
+                },
+                "auth": {
+                    "type": "bearer",
+                    "bearer": [
+                        {
+                            "key": "token",
+                            "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJoZXhfaWRlbnRpdHkiOiJjMjAwOTQ4NmZlNmVlM2Q1NjczMmZkODVlY2EzNTYwMGU0MjE0NWY1MzNjMmU0ZGE3NDYwYmFkYmQyZGFiZDAxIiwic3ViIjoiMmFmNGFhYzgtNjE2OS00ODM0LTlkY2YtMzAyZTJlN2M4YzgzIiwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjpbInNwYWNldGltZWRiIl0sImlhdCI6MTc0MjU0MjA1OCwiZXhwIjpudWxsfQ.KpIJbWltPYNRmNe5pXPvoxxA_AFIDu_-w2ViUVbeZnQ_aPqHAkY2xmKw3r90NpbSOFezKW7Lvvzw6x7vCTQocw",
+                            "type": "string"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "verify",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:3000/v1/identity/c2009486fe6ee3d56732fd85eca35600e42145f533c2e4da7460badbd2dabd01/verify",
+                    "path": [
+                        "v1",
+                        "identity",
+                        "c2009486fe6ee3d56732fd85eca35600e42145f533c2e4da7460badbd2dabd01",
+                        "verify"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000"
+                },
+                "auth": {
+                    "type": "bearer",
+                    "bearer": [
+                        {
+                            "key": "token",
+                            "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJoZXhfaWRlbnRpdHkiOiJjMjAwOTQ4NmZlNmVlM2Q1NjczMmZkODVlY2EzNTYwMGU0MjE0NWY1MzNjMmU0ZGE3NDYwYmFkYmQyZGFiZDAxIiwic3ViIjoiMmFmNGFhYzgtNjE2OS00ODM0LTlkY2YtMzAyZTJlN2M4YzgzIiwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjpbInNwYWNldGltZWRiIl0sImlhdCI6MTc0MjU0MjA1OCwiZXhwIjpudWxsfQ.KpIJbWltPYNRmNe5pXPvoxxA_AFIDu_-w2ViUVbeZnQ_aPqHAkY2xmKw3r90NpbSOFezKW7Lvvzw6x7vCTQocw",
+                            "type": "string"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

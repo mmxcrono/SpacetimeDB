@@ -1,0 +1,86 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "spacetime",
+    "collectionId": "f322e32d-5a15-415c-9980-21acaeafc5dd",
+    "dateExported": "2025-03-21T07:54:30.793Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ffd97720-b11c-4102-9522-0e8086990ac4",
+            "colId": "f322e32d-5a15-415c-9980-21acaeafc5dd",
+            "containerId": "",
+            "name": "ping",
+            "url": "http://localhost:3000/v1/ping",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-03-21T07:23:47.815Z",
+            "modified": "2025-03-21T07:24:02.068Z",
+            "headers": []
+        },
+        {
+            "_id": "cc076448-b343-4a01-8824-461664635697",
+            "colId": "f322e32d-5a15-415c-9980-21acaeafc5dd",
+            "containerId": "",
+            "name": "identity",
+            "url": "http://localhost:3000/v1/identity",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-03-21T07:27:06.704Z",
+            "modified": "2025-03-21T07:27:37.032Z",
+            "headers": []
+        },
+        {
+            "_id": "fcc03a30-fe69-4b00-8e6c-2176ce5c8b8f",
+            "colId": "f322e32d-5a15-415c-9980-21acaeafc5dd",
+            "containerId": "",
+            "name": "identity public-key",
+            "url": "http://localhost:3000/v1/identity/public-key",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-03-21T07:28:21.995Z",
+            "modified": "2025-03-21T07:31:40.925Z",
+            "headers": []
+        },
+        {
+            "_id": "e89defbc-f1cf-4de1-a609-e5b2dfcd5af1",
+            "colId": "f322e32d-5a15-415c-9980-21acaeafc5dd",
+            "containerId": "",
+            "name": "set email",
+            "url": "http://localhost:3000/v1/identity/c2009486fe6ee3d56732fd85eca35600e42145f533c2e4da7460badbd2dabd01/set-email?email=hnguyen.email@gmail.com",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2025-03-21T07:32:21.709Z",
+            "modified": "2025-03-21T07:33:39.546Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "email",
+                    "value": "hnguyen.email@gmail.com",
+                    "isPath": false
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJoZXhfaWRlbnRpdHkiOiJjMjAwOTQ4NmZlNmVlM2Q1NjczMmZkODVlY2EzNTYwMGU0MjE0NWY1MzNjMmU0ZGE3NDYwYmFkYmQyZGFiZDAxIiwic3ViIjoiMmFmNGFhYzgtNjE2OS00ODM0LTlkY2YtMzAyZTJlN2M4YzgzIiwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjpbInNwYWNldGltZWRiIl0sImlhdCI6MTc0MjU0MjA1OCwiZXhwIjpudWxsfQ.KpIJbWltPYNRmNe5pXPvoxxA_AFIDu_-w2ViUVbeZnQ_aPqHAkY2xmKw3r90NpbSOFezKW7Lvvzw6x7vCTQocw"
+            }
+        },
+        {
+            "_id": "607d3821-09e3-46ed-b5ff-19a70e88db0c",
+            "colId": "f322e32d-5a15-415c-9980-21acaeafc5dd",
+            "containerId": "",
+            "name": "verify",
+            "url": "http://localhost:3000/v1/identity/c2009486fe6ee3d56732fd85eca35600e42145f533c2e4da7460badbd2dabd01/verify",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2025-03-21T07:35:13.092Z",
+            "modified": "2025-03-21T07:43:43.973Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJoZXhfaWRlbnRpdHkiOiJjMjAwOTQ4NmZlNmVlM2Q1NjczMmZkODVlY2EzNTYwMGU0MjE0NWY1MzNjMmU0ZGE3NDYwYmFkYmQyZGFiZDAxIiwic3ViIjoiMmFmNGFhYzgtNjE2OS00ODM0LTlkY2YtMzAyZTJlN2M4YzgzIiwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjpbInNwYWNldGltZWRiIl0sImlhdCI6MTc0MjU0MjA1OCwiZXhwIjpudWxsfQ.KpIJbWltPYNRmNe5pXPvoxxA_AFIDu_-w2ViUVbeZnQ_aPqHAkY2xmKw3r90NpbSOFezKW7Lvvzw6x7vCTQocw"
+            }
+        }
+    ],
+    "ref": "rfRcZ-VSf4IXko3kHyHbnrbdMEs2VLeuqhEJSQhAvRyw1xawKieKcGHvMky0d_HSwRzfj8zZSGxHGG08Uw3B8Q"
+}
